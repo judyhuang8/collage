@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
+  <script src="script.js"></script>
+  <!-- <link rel="icon" href="images/J.png"> -->
+</head>
+
+<body>
+  <svg width="276" height="73" viewBox="0 0 276 73" fill="none" xmlns="http://www.w3.org/2000/svg" id="logo"
+    class="hidden">
+    <path
+      d="M14.4219 26.8125C18.0156 22.5 22.5312 20.3438 27.9688 20.3438C38.9688 20.3438 44.5469 26.7344 44.7031 39.5156V72H31.1562V39.8906C31.1562 36.9844 30.5312 34.8438 29.2812 33.4688C28.0312 32.0625 25.9531 31.3594 23.0469 31.3594C19.0781 31.3594 16.2031 32.8906 14.4219 35.9531V72H0.875V0H14.4219V26.8125Z"
+      stroke="black" stroke-width="2" mask="url(#path-1-outside-1)" />
+    <path
+      d="M87.8656 72.9375C80.4281 72.9375 74.3656 70.6562 69.6781 66.0938C65.0219 61.5312 62.6937 55.4531 62.6937 47.8594V46.5469C62.6937 41.4531 63.6781 36.9062 65.6469 32.9062C67.6156 28.875 70.3969 25.7812 73.9906 23.625C77.6156 21.4375 81.7406 20.3438 86.3656 20.3438C93.3031 20.3438 98.7562 22.5312 102.725 26.9062C106.725 31.2812 108.725 37.4844 108.725 45.5156V51.0469H76.4281C76.8656 54.3594 78.1781 57.0156 80.3656 59.0156C82.5844 61.0156 85.3812 62.0156 88.7562 62.0156C93.975 62.0156 98.0531 60.125 100.991 56.3438L107.647 63.7969C105.616 66.6719 102.866 68.9219 99.3969 70.5469C95.9281 72.1406 92.0844 72.9375 87.8656 72.9375ZM86.3187 31.3125C83.6312 31.3125 81.4437 32.2188 79.7562 34.0312C78.1 35.8438 77.0375 38.4375 76.5687 41.8125H95.4125V40.7344C95.35 37.7344 94.5375 35.4219 92.975 33.7969C91.4125 32.1406 89.1937 31.3125 86.3187 31.3125Z"
+      stroke="black" stroke-width="2" mask="url(#path-1-outside-1)" />
+    <path d="M140.356 72H126.762V0H140.356V72Z" stroke="black" stroke-width="2" mask="url(#path-1-outside-1)" />
+    <path d="M175.456 72H161.863V0H175.456V72Z" stroke="black" stroke-width="2" mask="url(#path-1-outside-1)" />
+    <path
+      d="M194.15 46.1719C194.15 41.1406 195.119 36.6562 197.056 32.7188C198.994 28.7812 201.775 25.7344 205.4 23.5781C209.056 21.4219 213.291 20.3438 218.103 20.3438C224.947 20.3438 230.525 22.4375 234.837 26.625C239.181 30.8125 241.603 36.5 242.103 43.6875L242.197 47.1562C242.197 54.9375 240.025 61.1875 235.681 65.9062C231.337 70.5938 225.509 72.9375 218.197 72.9375C210.884 72.9375 205.041 70.5938 200.666 65.9062C196.322 61.2188 194.15 54.8438 194.15 46.7812V46.1719ZM207.697 47.1562C207.697 51.9688 208.603 55.6562 210.416 58.2188C212.228 60.75 214.822 62.0156 218.197 62.0156C221.478 62.0156 224.041 60.7656 225.884 58.2656C227.728 55.7344 228.65 51.7031 228.65 46.1719C228.65 41.4531 227.728 37.7969 225.884 35.2031C224.041 32.6094 221.447 31.3125 218.103 31.3125C214.791 31.3125 212.228 32.6094 210.416 35.2031C208.603 37.7656 207.697 41.75 207.697 47.1562Z"
+      stroke="black" stroke-width="2" mask="url(#path-1-outside-1)" />
+    <path
+      d="M273.922 51.0469H262.672L261.078 3.75H275.516L273.922 51.0469ZM268.297 58.4531C270.578 58.4531 272.406 59.125 273.781 60.4688C275.188 61.8125 275.891 63.5312 275.891 65.625C275.891 67.6875 275.188 69.3906 273.781 70.7344C272.406 72.0781 270.578 72.75 268.297 72.75C266.047 72.75 264.219 72.0781 262.812 70.7344C261.438 69.3906 260.75 67.6875 260.75 65.625C260.75 63.5625 261.438 61.8594 262.812 60.5156C264.219 59.1406 266.047 58.4531 268.297 58.4531Z"
+      stroke="black" stroke-width="2" mask="url(#path-1-outside-1)" />
+  </svg>
+
+  <main class="hidden">
+    <div class="row">
+      <div class="col img">
+        <img src="images/IMG_4194.jpg" class="img-fluid">
+      </div>
+      <div class="col info">
+        <div class="">
+          <h2>
+            HI I'M JUDY
+          </h2>
+
+          <p>
+            🌃 I'm born and raised in NYC, specifically Queens.
+          </p>
+          <p>
+            👩🏻‍💻 I am a rising junior at Cornell University studying
+            Computer Science.
+          </p>
+          <p>
+            🖌️ I really like art and design. Some of my favorite artists/desinger are:
+          <ul>
+            <li>
+              <p>
+                <a href="https://www.instagram.com/jennetliaw/">Jennet Liaw</a>
+              </p>
+
+            </li>
+            <li>
+              <p>
+                <a href="https://www.instagram.com/pypahs_art/">Filipa Santos</a>
+              </p>
+
+            </li>
+            <li>
+              <p>
+                <a href="https://www.instagram.com/davebeesbombs/">Dave Whyte</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="https://www.instagram.com/mmmmonexx/">MMMMONEXX</a>
+              </p>
+            </li>
+          </ul>
+
+          </p>
+          <p>
+            🎶 I like listening to pop music. My favorite artist is LAUV. I also love lofi music (<a
+              href="https://www.youtube.com/watch?v=5qap5aO4i9A">lofi hip hop
+              radio - beats to
+              relax/study to</a> is my go-to jam).
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col img fade">
+        <img src="images/kanagawa.jpg" class="img-fluid">
+      </div>
+      <div class="col info fade" id="hobbies">
+        <h2>HOBBIES</h2>
+        <ul>
+          <li>
+            <p> 🎨 painting: Bob Ross is my inspiration </p>
+          </li>
+
+          <li>
+            <p>🤺 fencing & 🏊‍♀️ swimming: I fenced for a bit in high school and swim for leisure </p>
+          </li>
+
+          <li>
+            <p> 🖥️ watching YouTube: I love watching <a
+                href="https://www.youtube.com/channel/UCo9ZZ04kIhN_8xGxvnjaduQ">Stephanie Soo</a>, <a
+                href="https://www.youtube.com/channel/UC-pkCUlaRDMA--8LTWQDuHA">Kennie J.D.</a>, and <a
+                href="https://www.youtube.com/channel/UCnQhwPVwcP-DnbUZtIMrupw">bestdressed</a>!
+            </p>
+          </li>
+          <li>
+            <p>
+              🐈 watching cat videos
+            </p>
+          </li>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col fade">
+        <h2>KEEP IN TOUCH!</h2>
+        <div class="row contact">
+          <p><a href=""> 💼 LinkedIn</a></p>
+          <p><a href=""> 📧 Email</a></p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="hidden">
+    Made w 💖 by Judy Huang
+  </footer>
+
+</body>
+
+</html>
