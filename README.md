@@ -1,1 +1,2 @@
-# A little About Me for IBM Summer 2020 Internship
+# Collage
+A little About Me for IBM Summer 2020 Internship
